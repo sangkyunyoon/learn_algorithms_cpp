@@ -1,2 +1,2 @@
 # learn_algorithms_cpp
-Learn Algorithms with C++
+Learn Algorithms using C++
