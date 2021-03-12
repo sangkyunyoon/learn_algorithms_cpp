@@ -7,4 +7,4 @@ set(CMAKE_CXX_STANDARD 14)
 #        LICENSE
 #        README.md)
 
-add_subdirectory(tree)
+add_subdirectory(binarytree)

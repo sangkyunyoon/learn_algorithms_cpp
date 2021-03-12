@@ -5,7 +5,7 @@
 		<Option title="learn_algorithms_cpp"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\tree\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\binarytree\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug"/>
@@ -37,9 +37,9 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tree">
-				<Option output="/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/tree/tree" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/tree"/>
+			<Target title="binaryree">
+				<Option output="/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/binarytree/binaryree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/binarytree"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 tree"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/binarytree/Makefile&quot;  VERBOSE=1 binaryree"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/binarytree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/binarytree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/binarytree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tree/fast">
-				<Option output="/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/tree/tree" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/tree"/>
+			<Target title="binaryree/fast">
+				<Option output="/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/binarytree/binaryree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/binarytree"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,21 +73,21 @@
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 tree/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/binarytree/Makefile&quot;  VERBOSE=1 binaryree/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/binarytree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/binarytree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/cmake-build-debug/binarytree/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/tree/main.cpp">
-			<Option target="tree"/>
+		<Unit filename="/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/binarytree/main.cpp">
+			<Option target="binaryree"/>
 		</Unit>
 		<Unit filename="/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/tree/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\tree\"/>
+		<Unit filename="/Users/sangkyunyoon/git/sangkyunyoon/learn_algorithms_cpp/binarytree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\binarytree\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
