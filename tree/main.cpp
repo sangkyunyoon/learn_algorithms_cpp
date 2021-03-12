@@ -5,10 +5,11 @@
 
 int number = 15;
 
-typedef struct Node* Tree;
+//typedef struct Node* NodePointer;
 typedef struct Node {
     int data;
-    Tree leftChild, rightChild;
+    Node* leftChild;
+    Node* rightChild;
 } Node;
 
 void preorder(Node* node) {
@@ -49,10 +50,13 @@ int main() {
             node[j / 2].rightChild = &node[j];
         }
     }
+    std::cout << "전위 순회: ";
     preorder(&node[1]);
     std::cout << std::endl;
+    std::cout << "중위 순회: ";
     inorder(&node[1]);
-    std::cout << std::endl;
+    std::cout  << std::endl;
+    std::cout << "후위 순회: ";
     postorder(&node[1]);
     return 0;
 }
