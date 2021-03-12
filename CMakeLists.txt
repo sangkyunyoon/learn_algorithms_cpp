@@ -9,3 +9,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory(binarytree)
 add_subdirectory(measure_execution_time)
+add_subdirectory(selection_sort)
