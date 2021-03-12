@@ -22,6 +22,12 @@ int main() {
         temp = arr[i];
         arr[i] = arr[index];
         arr[index] = temp;
+
+        std::cout << i << ": ";
+        for (int k = 0; k < 10; ++k) {
+            std::cout << arr[k] << " ";
+        }
+        std::cout << std::endl;
     }
 
     //배열의 수 만큼 루프를 돌면서 값을 출력한다.
