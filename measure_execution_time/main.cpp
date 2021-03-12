@@ -2,6 +2,7 @@
 // Created by Sangkyun Yoon on 3/12/21.
 //
 #include <iostream>
+#include <chrono>
 
 using namespace std;
 using namespace std::chrono;
@@ -53,6 +54,8 @@ int main() {
             node[j / 2].rightChild = &node[j];
         }
     }
+    auto start = std::chrono::high_resolution_clock::now();
+    //auto start = high_resolution_clock::now();
 
     std::cout << "전위 순회: ";
     preorder(&node[1]);
@@ -63,5 +66,12 @@ int main() {
     std::cout << "후위 순회: ";
     postorder(&node[1]);
     std::cout << endl;
+
+    auto stop = std::chrono::high_resolution_clock::now();
+    //auto stop = high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+    //auto duration = duration_cast<microseconds>(stop - start);
+    cout << "Time taken by function: "
+         << duration.count() << " microseconds";
     return 0;
 }

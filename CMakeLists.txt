@@ -8,3 +8,4 @@ set(CMAKE_CXX_STANDARD 14)
 #        README.md)
 
 add_subdirectory(binarytree)
+add_subdirectory(measure_execution_time)
