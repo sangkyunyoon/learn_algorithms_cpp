@@ -13,3 +13,7 @@ Learn Algorithms using C++
 왜냐하면 정렬만큼 알고리즘의 효율성 차이를 극명하게 보여주는 것이 없기 때문입니다.
 
 ## [3. 버블정렬](bubble_sort/README.md)
+
+## [4. 삽입정렬](insertion_sort/README.md)
+
+## [5. 퀵정렬](quick_sort/README.md)
